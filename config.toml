@@ -5,6 +5,8 @@ theme = "bloggeri"
 
 [params]
     description = "My site description"
+    author = "John Doe"
+    authorImage = "/images/john.jpg"
 
 [[menu.main]]
   name = "About"
