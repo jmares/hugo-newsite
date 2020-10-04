@@ -1,3 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hugo's Site"
+theme = "bloggeri"
+
+[params]
+    description = "My site description"
