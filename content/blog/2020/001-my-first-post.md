@@ -3,7 +3,9 @@ title = "My First Post"
 date = "2020-09-27"
 draft = false
 description = "The first post I ever wrote for a Hugo site"
-tags = ["shortcodes","privacy",]
+categories = ["themes","syntax"]
+tags = ["shortcodes","privacy"]
+images = ["/images/blog/2020/first.jpg"]
 +++
 
 # H1 level title
