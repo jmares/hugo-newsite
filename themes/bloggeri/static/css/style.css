@@ -25,3 +25,8 @@ main {
 .title-image {
     padding-bottom: 2em;
 }
+
+.narrow-background {
+    display: table;
+    padding: 0.1em;
+}
