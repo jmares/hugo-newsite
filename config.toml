@@ -13,8 +13,16 @@ theme = "bloggeri"
   url = "/about"
 
 [[menu.main]]
+  name = "Privacy"
+  url = "/privacy"
+
+[[menu.main]]
   name = "Blog"
   url = "/blog"
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
 
 [[menu.social]]
     name = "GitHub"
