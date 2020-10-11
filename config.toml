@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo's Site"
 theme = "bloggeri"
+paginate = 4
 
 [params]
     description = "My site description"
