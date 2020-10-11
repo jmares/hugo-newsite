@@ -1,11 +1,11 @@
----
-title: "This Post is Full of Lorem Ipsum"
-date: 2020-10-04T15:42:38+02:00
-description: "This is a short description of the page"
-categories: ["themes","syntax"]
-draft: true
-images: ["/images/blog/2020/lorum.jpg"]
----
++++
+title = "Lucky Number Seven"
+date = "2020-10-07"
+description = "Lucky Number Slevin is a 2006 crime thriller film directed by Paul McGuigan, written by Jason Smilovic, and starring Josh Hartnett, Bruce Willis, Lucy Liu, Stanley Tucci, Morgan Freeman, and Ben Kingsley."
+tags = ["lucy","bruce","movie"]
+categories = ["themes","movie"]
+images = ["/images/blog/2020/seven.jpg"]
++++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 <!--more-->
@@ -133,3 +133,4 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+
