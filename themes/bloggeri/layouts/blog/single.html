@@ -25,6 +25,11 @@
                             {{- if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}">{{ $category }}</a>
                             {{- end }}
                         </div>
+                        <div class="column">
+                            {{ range $idx, $tag := .Params.tags }}
+                            {{- if ne $idx 0 }}, {{ end }}<a href="{{ "tags/" | relURL }}{{ $tag | urlize }}">{{ $tag }}</a>
+                            {{- end }}
+                        </div>
                     </div>
                 </div>
                 {{ with .Params.images }}

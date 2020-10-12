@@ -28,7 +28,11 @@ unsafe= true
     name = "Contact"
     url = "/contact"
 
-[[menu.social]]
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    
+  [[menu.social]]
     name = "GitHub"
     url = "https://github.com/pakstech"
     pre = "<i class='fab fa-github'></i>"
