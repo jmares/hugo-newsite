@@ -4,6 +4,9 @@ title = "Hugo's Site"
 theme = "bloggeri"
 paginate = 4
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
     description = "My site description"
     author = "John Doe"
