@@ -7,6 +7,23 @@ paginate = 4
 [markup.goldmark.renderer]
 unsafe= true
 
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "tags"
+        weight = 80
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
 [params]
     description = "My site description"
     author = "John Doe"
